@@ -1,4 +1,4 @@
-# Mouse movement#
+# Mouse movement #
 * [Live](https://onion-kamil.github.io/js-training/mouse-movement/)
 
 ## About ##
