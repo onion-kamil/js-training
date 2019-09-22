@@ -66,3 +66,10 @@ After clicking on the keyboard r, g, b it will be possible to change this value 
 
 ## About ##
 * After entering the correct password, the message is displayed.
+
+# 7. Random name #
+* [Live](https://onion-kamil.github.io/js-training/random-name/)
+* [Project](random-name/)
+
+## About ##
+* Random name of arrow.
