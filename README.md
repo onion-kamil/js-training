@@ -67,16 +67,9 @@ After clicking on the keyboard r, g, b it will be possible to change this value 
 ## About ##
 * After entering the correct password, the message is displayed.
 
-# 8. Random name #
+# 7. Random name #
 * [Live](https://onion-kamil.github.io/js-training/random-name/)
 * [Project](random-name/)
 
 ## About ##
 * Random name of arrow.
-
-# 9.1000 codes generatore #
-* [Live](https://onion-kamil.github.io/js-training/1000-codes-generator/)
-* [Project](1000-codes-generator/)
-
-## About ##
-* 1000 random codes generator.
