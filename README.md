@@ -49,3 +49,13 @@ Even and odd - green.
 * [Live](https://onion-kamil.github.io/js-training/move-item/) 
 * [Project](move-item/)
 
+
+# 6. Arrows keys change background color #
+* [Live](https://onion-kamil.github.io/js-training/arrows-keys-change-background/)
+* [Project](arrows-keys-change-background/)
+
+## About ##
+* Use the down and up arrows to change the background color from gray.
+
+## Actions for the future ##
+After clicking on the keyboard r, g, b it will be possible to change this value and it will be displayed on the screen.
