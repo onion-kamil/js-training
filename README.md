@@ -59,3 +59,10 @@ Even and odd - green.
 
 ## Actions for the future ##
 After clicking on the keyboard r, g, b it will be possible to change this value and it will be displayed on the screen.
+
+# 7. Password Messages #
+* [Live](https://onion-kamil.github.io/js-training/password-message/)
+* [Project](password-message/)
+
+## About ##
+* After entering the correct password, the message is displayed.
