@@ -41,7 +41,7 @@ Even and odd - green.
 * [Live](https://onion-kamil.github.io/js-training/mouse-movement/) 
 * [Project](mouse-movement/)
 
-# 5. Mouse movement #
+# 5. Mouse item #
 ## About ## 
 * Catch and move the item.
 
