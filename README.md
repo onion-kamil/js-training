@@ -83,7 +83,7 @@ After clicking on the keyboard r, g, b it will be possible to change this value 
 
 # 10. Random answer #
 * [Live](https://onion-kamil.github.io/js-training/random-answer/)
-* [Project](random-anser/)
+* [Project](random-answer/)
 
 ## About ##
 * Ask yourself a question, add answers and randomly draw a random answer.
