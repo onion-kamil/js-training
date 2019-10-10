@@ -87,3 +87,10 @@ After clicking on the keyboard r, g, b it will be possible to change this value 
 
 ## About ##
 * Ask yourself a question, add answers and randomly draw a random answer.
+
+# 11. Rock paper scissors #
+* [Live](https://onion-kamil.github.io/js-training/rock-paper-scissors/)
+* [Project](rock-paper-scissors/)
+
+## About ##
+* Game paper rock scissors with the computer.
