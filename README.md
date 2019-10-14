@@ -94,3 +94,10 @@ After clicking on the keyboard r, g, b it will be possible to change this value 
 
 ## About ##
 * Game paper rock scissors with the computer.
+
+# 12. Typing #
+* [Live](https://onion-kamil.github.io/js-training/typng/)
+* [Project](typing/)
+
+## About ##
+* Typing animation
