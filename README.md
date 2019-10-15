@@ -101,3 +101,10 @@ After clicking on the keyboard r, g, b it will be possible to change this value 
 
 ## About ##
 * Typing animation
+
+# 13. Baner #
+* [Live](https://onion-kamil.github.io/js-training/baner/)
+* [Project](baner/)
+
+## About ##
+* Banner project with changing slides and the ability to change them using the arrows.
