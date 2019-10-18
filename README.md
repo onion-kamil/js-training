@@ -108,3 +108,10 @@ After clicking on the keyboard r, g, b it will be possible to change this value 
 
 ## About ##
 * Banner project with changing slides and the ability to change them using the arrows.
+
+# 14. Time counter #
+* [Live](https://onion-kamil.github.io/js-training/time-counter/)
+* [Project](time-counter/)
+
+## About ##
+* Set the time and see how much time is left until the selected date.
