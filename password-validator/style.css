@@ -1,0 +1,22 @@
+input {
+    display: block;
+    margin: auto
+}
+
+.resultBox {
+    width: 50%;
+    text-align: center;
+    margin: 20px auto
+}
+
+.negative {
+    border: 1px solid red;
+    background-color: rgb(247, 35, 35);
+    color: white
+}
+
+.positive {
+    border: 1px solid rgb(0, 255, 4);
+    background-color: rgb(50, 250, 53);
+    color: white;
+}
