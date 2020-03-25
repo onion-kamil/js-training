@@ -179,3 +179,24 @@ After clicking on the keyboard r, g, b it will be possible to change this value 
 applyPredicate([1, 2, 3], element => element > 2); // => [3]
 applyPredicate(["a", "b", "c"], element => ["b", "c"].includes(element)); // => ['b', 'c']
 ```
+
+# 17. Pangram
+
+- [Live](https://onion-kamil.github.io/js-training/pangram/)
+
+- [Project](pangram/)
+
+## About
+
+**Cel zadania:**
+
+- Zaimplementuj funkcję, która sprawdzi, czy podany parametr to tzw. pangram.
+
+- Pangram to możliwe do zrozumienia zdanie wykorzystujące wszystkie litery danego alfabetu.
+
+**Przykład:**
+
+```javascript
+isPangram("test"); // => false
+isPangram("Dość gróźb fuzją, klnę, pych i małżeństw!"); // => true
+```
