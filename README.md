@@ -227,7 +227,7 @@ goodbye("Tomek"); // => 'Żegnaj, Tomek'
 
 - Utworzona funkcja to tzw. funkcja wyższego rzędu.
 
-# 19. In two steps
+# 19. Emoji
 
 - [Live](https://onion-kamil.github.io/js-training/emoji/)
 
@@ -242,6 +242,6 @@ goodbye("Tomek"); // => 'Żegnaj, Tomek'
 **Przykład:**
 
 ```javascript
-useEmoji("Takiemu zachowaniu mówię stop i to mocny stop!") * // => 'Takiemu zachowaniu mówię 🚫 i to mocny 🚫!'
-  useEmoji("Jadę po nowy samochód :D"); // => 'Jadę po nowy 🏎 :D'
+useEmoji("Takiemu zachowaniu mówię stop i to mocny stop!"); // => 'Takiemu zachowaniu mówię 🚫 i to mocny 🚫!'
+useEmoji("Jadę po nowy samochód :D"); // => 'Jadę po nowy 🏎 :D'
 ```
