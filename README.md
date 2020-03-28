@@ -269,3 +269,25 @@ useEmoji("Jadę po nowy samochód :D"); // => 'Jadę po nowy 🏎 :D'
 **Cel zadania:**
 
 - Zmodyfikuj funkcję factory w taki sposób, aby zmienna quote była dostępna jako właściwość.
+
+# 22. One to manage everything
+
+- [Live](https://onion-kamil.github.io/js-training/one-to-manage-everything/)
+
+- [Project](one-to-manage-everything/)
+
+## About
+
+**Cel zadania:**
+
+- Zaimplementuj funkcję rule() w taki sposób aby wszystkie przekazane do niej tablice zostały połączone w jedną
+
+- Przykład:
+
+```javascript
+rule([1, 2], [5, 6]); // => [1, 2, 5 , 6];
+```
+
+- Punkty dodatkowe
+  Wykorzystaj operator rest
+  Zapisz rozwiązanie w jednej linii
