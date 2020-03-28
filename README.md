@@ -245,3 +245,15 @@ goodbye("Tomek"); // => 'Żegnaj, Tomek'
 useEmoji("Takiemu zachowaniu mówię stop i to mocny stop!"); // => 'Takiemu zachowaniu mówię 🚫 i to mocny 🚫!'
 useEmoji("Jadę po nowy samochód :D"); // => 'Jadę po nowy 🏎 :D'
 ```
+
+# 20. Durations
+
+- [Live](https://onion-kamil.github.io/js-training/durations/)
+
+- [Project](durations/)
+
+## About
+
+**Cel zadania:**
+
+- Napisz funkcję, która policzy czas trwania kursu z podziałem na lekcje przygotowane przez Adama, Marcina i Przemka.
