@@ -257,3 +257,15 @@ useEmoji("Jadę po nowy samochód :D"); // => 'Jadę po nowy 🏎 :D'
 **Cel zadania:**
 
 - Napisz funkcję, która policzy czas trwania kursu z podziałem na lekcje przygotowane przez Adama, Marcina i Przemka.
+
+# 21. Factory
+
+- [Live](https://onion-kamil.github.io/js-training/factory/)
+
+- [Project](factory/)
+
+## About
+
+**Cel zadania:**
+
+- Zmodyfikuj funkcję factory w taki sposób, aby zmienna quote była dostępna jako właściwość.
