@@ -292,7 +292,7 @@ rule([1, 2], [5, 6]); // => [1, 2, 5 , 6];
   Wykorzystaj operator rest
   Zapisz rozwiązanie w jednej linii
 
-# 23. One to manage everything
+# 23. Mr. Elliot
 
 - [Live](https://onion-kamil.github.io/js-training/mr-elliot/)
 
