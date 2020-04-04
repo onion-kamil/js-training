@@ -341,3 +341,23 @@ greeting("Saving The World"); // => 'S4V1Ng tHe w0rLd'
 ## About
 
 Simple form validation for learning regular expresison.
+
+# 25. Find Tags
+
+- [Live](https://onion-kamil.github.io/js-training/find-tags/)
+
+- [Project](find-tags/)
+
+## About
+
+**Cel zadania:**
+
+- Zaimplementuj funkcję wyszukującą hashtagi w zdaniu
+
+**Przykład:**
+
+```javascript
+findTags("W 2020 #opanujeJS"); // => opanujeJS
+findTags("Za chwilę dodam #opanujeJS!"); // => opanujeJS
+findTags("Lubię tagować #yolo #love#happy #h3cker"); // => yolo, love, happy, h3cker
+```
