@@ -383,7 +383,7 @@ length([1, 2, 3, 4]); // => 4
 
 # 27. Array Functions
 
-- [Live](https://onion-kamil.github.io/js-training/count-words//)
+- [Live](https://onion-kamil.github.io/js-training/count-words/)
 
 - [Project](count-words/)
 
@@ -405,4 +405,24 @@ countWords("Nauka JavaScript z kursem Opanuj JavaScript to frajda"); // => {
   to: 1,
   frajda: 1
 }
+```
+
+# 28. Angram
+
+- [Live](https://onion-kamil.github.io/js-training/angram/)
+
+- [Project](angram/)
+
+## About
+
+**Cel zadania:**
+
+- Otrzymując jako parametry słowo i tablicę jego możliwych anagramów, zwróć tablicę z właściwymi anagramami.
+
+Anagram to wyraz powstały przez przestawienie liter innego wyrazu, wykorzystujący wszystkie litery materiału wyjściowego.
+
+**Przykład:**
+
+```javascript
+getAnagrams("przeprogramowani", ["orperzpinawomarg", "swag", "graprzewanipromo", "orperzpwaniprom", "siema"]);  => ["orperzpinawomarg",  "graprzewanipromo"]
 ```
