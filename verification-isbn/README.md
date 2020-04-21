@@ -1,4 +1,4 @@
-# Predicate
+# Verification ISBN
 
 - [Live](https://onion-kamil.github.io/js-training/verification-isbn/)
 
