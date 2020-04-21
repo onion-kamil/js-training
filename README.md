@@ -477,3 +477,22 @@ Weźmy ISBN: 85-359-0277-5
 **Cel zadania:**
 
 - W oparciu o zaprezentowany powyżej algorytm, napisz funkcję sprawdzającą przekazany w formie stringa ISBN. Funkcja powinna obsłużyć ISBN z i bez myślników.
+
+# 30. Match brackets
+
+- [Live](https://onion-kamil.github.io/js-training/match-brackets/)
+
+- [Project](match-brackets/)
+
+## About
+
+**Cel zadania:**
+
+- Otrzymując stringa zawierającego nawiasy kwadratowe [], klamry {} lub nawiasy okrągłe (), upewnij się że wszystkie z par są dopasowane i prawidłowo zagnieżdżone. Jeżeli wszystko się zgadza, zwróć true. W przypadku wykrycia błędów, zwróc false.
+
+**Przykład:**
+
+```javascript
+'[{()}]' => true
+'[{]}' => false
+```

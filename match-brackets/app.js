@@ -7,36 +7,39 @@
  * Przykład: '[{]}' => false
  */
 
-const bracketsPairs = {
-  "(": ")",
-  "[": "]",
-  "{": "}",
-  "<": ">",
-};
-
 function checkBrackets(stringWithBrackets) {
-  let result = 0;
   stringWithBrackets = stringWithBrackets.split("");
-  const isEven = stringWithBrackets.length % 2 === 0;
-  const halfString = stringWithBrackets.length / 2;
-  const splitInHalf = stringWithBrackets.slice(3).reverse();
-  //   const secondPairBracket = bracketsPairs[stringWithBrackets[2]];
+  const brackets = '[]{}()<>';
+  let stack = [];
+
+  for (const bracket of stringWithBrackets) {
+    const bracketIndex = brackets.indexOf(bracket);
+
+    if (bracketIndex % 2 === 0) {
+      stack.push(bracketIndex + 1);
+    } else {
+      if (stack.pop() !== bracketIndex) {
+        return false
+      }
+    }
+
+  }
+  return stack.length === 0
 }
 
-checkBrackets("[{()}]"), true;
 
-/* Weryfikacja */
+/* Verification */
 
 function verify(input, goal) {
   input = Array.isArray(input) ? `[${input.join(", ")}]` : input;
   if (input == goal) {
-    console.log("Gratulacje!");
+    console.log("Congratulations!");
   } else {
-    console.log(`Niestety, oczekiwano - ${goal}, otrzymano - ${input}`);
+    console.log(`Unfortunately, expected - ${goal}, received - ${input}`);
   }
 }
 
-// verify(checkBrackets("[{()}]"), true);
-// verify(checkBrackets("[{]}"), false);
-// verify(checkBrackets("()[{}]"), true);
-// verify(checkBrackets("{[(]}}"), false);
+verify(checkBrackets("[{()}]"), true);
+verify(checkBrackets("[{]}"), false);
+verify(checkBrackets("()[{}]"), true);
+verify(checkBrackets("{[(]}}"), false);
